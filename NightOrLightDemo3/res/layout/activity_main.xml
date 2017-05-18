@@ -1,0 +1,20 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/containerBackground">
+    <Button 
+        android:id="@+id/btn_toother"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转到切换日夜模式的按钮"
+        android:textColor="?attr/titleColor"/>
+    <ListView 
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+    </ListView>
+</LinearLayout>
